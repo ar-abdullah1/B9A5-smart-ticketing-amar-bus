@@ -10,8 +10,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- custom css -->
     <link rel="stylesheet" href="styles/style.css">
-    <!-- Scripts JS -->
-    <link rel="stylesheet" href="scripts/main.js">
 
 </head>
 
@@ -57,6 +55,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- banner section start here-->
         <section
             class="container mx-auto mt-10 text-center bg-[url('images/banner.png')] bg-cover bg-no-repeat min-h-[720px] rounded-[36px] flex items-center justify-center flex-col relative">
@@ -66,8 +65,9 @@
                         class="text-[#45b334]">Amar Bus</span></h1>
                 <p class="text-lg text-white">Welcome to Amar Bus. I will share all more update information about Amar
                     Bus. If you wise, you can Book Amar Bus Ticket
-                    Online. 
-                    <br> We’ve added Online Ticket Booking Official.</p>
+                    Online.
+                    <br> We’ve added Online Ticket Booking Official.
+                </p>
                 <button
                     class="bg-[#1DD100] px-6 py-3 font-raleway text-black text-xl font-bold rounded-xl border-2 border-transparent hover:text-white hover:bg-transparent hover:border-[#1DD100] transition duration-700">Buy
                     Tickets
@@ -75,10 +75,64 @@
             </div>
         </section>
     </header>
-    <main>
+
+    <!-- main part start here  -->
+    <main class="container mx-auto">
+        <!-- best offer section is here -->
+        <section class="offer w-full mt-[550px] lg:mt-32 flex flex-col items-center gap-12">
+            <!-- section title -->
+            <h1 class="text-[#030712] raleway text-4xl font-bold">Best offers for you</h1>
+            <!-- section card -->
+            <div class="grid w-full gap-6 lg:grid-cols-2">
+                <!-- card 1 -->
+                <div class="flex rounded-3xl bg-[#FFBF0F]">
+
+                    <!-- left side -->
+                    <div class="p-12 w-[60%] flex flex-col justify-center">
+                        <h1 class="text-title text-4xl font-[900] inter leading-9">15% OFF</h1>
+                        <p class="text-xl font-semibold leading-9 text-title inter">on your next purchase</p>
+                        <p class="text-lg font-medium inter text-disc">use by January 2024</p>
+                    </div>
+
+                    <!-- devider -->
+                    <img src="./images/cupon-devider.png" alt="cupon-devider.png">
+
+                    <!-- right side -->
+                    <div class="flex flex-col justify-center p-6">
+                        <h1 class="text-title text-3xl font-[900] raleway leading-[58px]">NEW15</h1>
+                        <p class="text-lg font-medium text-disc raleway">Coupon Code</p>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="flex rounded-3xl bg-[#F78C9C]">
+                    <!-- left side -->
+                    <div class="p-12 flex flex-col justify-center w-[60%]">
+                        <h1 class="text-title text-4xl font-[900] inter leading-9">20% OFF</h1>
+                        <p class="text-xl font-semibold leading-9 text-title inter">on your next purchase</p>
+                        <p class="text-lg font-medium inter text-disc">use by January 2024</p>
+                    </div>
+
+                    <!-- devider -->
+                    <img src="./images/cupon-devider.png" alt="cupon-devider.png">
+
+                    <!-- right side -->
+                    <div class="flex flex-col justify-center p-6">
+                        <h1 class="text-title text-3xl font-[900] raleway leading-[58px]">Couple 20</h1>
+                        <p class="text-lg font-medium text-disc raleway">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <button class="text-xl font-bold rounded-lg btn btn-outline btn-success">See All Offers</button>
+
+        </section>
+
 
     </main>
     <footer></footer>
+
+    <!-- Scripts JS -->
+    <link rel="stylesheet" href="scripts/main.js">
 </body>
 
 </html>
