@@ -8,3 +8,14 @@
 .font-inter {
   font-family: "Inter", sans-serif;
 }
+
+.header-part {
+  /* width: 1173px; */
+  height: 56px;
+  top: 48px;
+}
+
+.span-part {
+  color: red;
+  
+}

@@ -16,15 +16,68 @@
 </head>
 
 <body class="font-inter">
-    <header>
+    <header class="header-part">
         <!-- nav section start here -->
-
+        <nav class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <h1 class="font-raleway text-4xl font-extrabold text-[#030712]">Amar-<span
+                            class="text-[#45b334]">B</span>us</h1>
+                </div>
+                <div class="hidden navbar-center lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-raleway text-lg font-medium text-[#030712B3]">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <button
+                        class="flex items-center gap-2 bg-[#1DD1001A] border border-[#1DD10066] px-6 py-3 font-raleway text-[#1DD100] text-xl font-bold rounded-xl">
+                        Bus
+                        <img src="images/bus-icon.png" alt="bus icon">
+                    </button>
+                </div>
+            </div>
+        </nav>
         <!-- banner section start here-->
-        <section>
-
+        <section
+            class="container mx-auto mt-10 text-center bg-[url('images/banner.png')] bg-cover bg-no-repeat min-h-[720px] rounded-[36px] flex items-center justify-center flex-col relative">
+            <!-- banner text -->
+            <div class="space-y-16">
+                <h1 class="font-extrabold text-white text-7xl font-raleway">End-to-End Travel with <br> <span
+                        class="text-[#45b334]">Amar Bus</span></h1>
+                <p class="text-lg text-white">Welcome to Amar Bus. I will share all more update information about Amar
+                    Bus. If you wise, you can Book Amar Bus Ticket
+                    Online. 
+                    <br> We’ve added Online Ticket Booking Official.</p>
+                <button
+                    class="bg-[#1DD100] px-6 py-3 font-raleway text-black text-xl font-bold rounded-xl border-2 border-transparent hover:text-white hover:bg-transparent hover:border-[#1DD100] transition duration-700">Buy
+                    Tickets
+                </button>
+            </div>
         </section>
     </header>
-    <main></main>
+    <main>
+
+    </main>
     <footer></footer>
 </body>
 
