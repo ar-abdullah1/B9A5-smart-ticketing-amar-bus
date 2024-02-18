@@ -387,13 +387,41 @@
 
         </section>
 
+        <!-- success section start here -->
+        <section>
+            <dialog id="my_modal_1" class="w-full modal">
+                <div class="flex flex-col items-center justify-center bg-white rounded-2xl">
+                    <img src="./images/success.png" alt="" class="mt-14" />
+                    <p class="py-4 text-[#27ae60] text-center text-2xl font-bold inter uppercase">
+                        success
+                    </p>
+                    <h1 class="text-center w-[80%] text-[#4a4a4a] inter font-medium text-xl">
+                        Thank you for Booking Our Bus Seats. We are working
+                        hard to find the best service and deals for you
+                    </h1>
+                    <p class="text-center mt-2 text-[#4a4a4a] inter text-xl font-light leading-[168%]">
+                        Shortly you will find a confirmation in your email.
+                    </p>
+                    <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button onclick="unHide()"
+                                class="btn bg-[#27ae60] text-white inter hover:text-link mb-14 font-semibold text-xl rounded-[32px] w-[300px]">
+                                Continue
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
+        </section>
+
     </main>
 
     <!-- footer part start here -->
     <footer id="footer" class="bg-[#030712] text-[#FFFFFF] p-5 lg:p-[120px]">
         <div class="flex justify-between">
             <div>
-                <h1 class="mb-2 text-3xl font-extrabold">Amar-Bus</h1>
+                <h1 class="mb-2 text-3xl font-extrabold">Amar<span class="text-[#1dd100]">B</span>us</h1>
                 <p> If you want to know about the Amar Enterprise Full details, <br> just read this full content with
                     attentively.</p>
             </div>
@@ -426,6 +454,7 @@
 
 
     <!-- Scripts JS -->
+    <link rel="stylesheet" href="scripts/index.js">
     <link rel="stylesheet" href="scripts/main.js">
 </body>
 
