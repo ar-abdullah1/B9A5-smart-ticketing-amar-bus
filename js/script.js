@@ -22,7 +22,7 @@ for (const button of seatButton) {
 
     seatCount += 1;
     if (seatCount > 4) {
-      alert("A maximum of 4 seats can be purchased.");
+      alert("Maximum number of seats per person have been booked!");
       return;
     }
 
